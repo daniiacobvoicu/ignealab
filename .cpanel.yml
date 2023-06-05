@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/daniiacobvoivu/ignealab/
+    - /bin/cp 00-Home.html $DEPLOYPATH
+    - /bin/cp js/script.js $DEPLOYPATH
+    - /bin/cp css/style.css $DEPLOYPATH
